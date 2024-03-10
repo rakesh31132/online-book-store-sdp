@@ -1,0 +1,71 @@
+/* LoginScreen.css */
+
+.login-screen {
+  background-image: url("./Library_pic1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  padding: 3rem 4rem;
+  max-width: fit-content;
+  text-align: left;
+  border: none;
+}
+
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0.5); /* Change the last value (0.5) to adjust the transparency */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.login-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.error-message {
+  color: #ff0000;
+  margin: 10px 0;
+}
+
+.loading-spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.sign-in-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-link {
+  color: #007bff;
+  text-decoration: none;
+}
